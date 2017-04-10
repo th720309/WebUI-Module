@@ -1,0 +1,88 @@
+body{
+    min-width: 1180px;
+    color: #dee2dd;
+    font-size:16px;
+    font-family: Arial,sans-serif,'Microsoft YaHei';
+}
+header{
+    height: 50px;
+    background: #eee;
+}
+header ul{
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+    line-height: 50px;
+}
+.signin-link button{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 5px 10px;
+    background: black;
+}
+p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.mask{
+    z-index: 1000;
+    position: absolute;
+    background: #756969;;
+    opacity: 0.2;
+    top: 0;
+}
+.login-box{
+    border: 2px solid #999;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 2000;
+    display: none;
+}
+.login-box-header{
+    height: 40px;
+    cursor: move;
+}
+.login-box-header p{
+    margin-top: 0;
+    text-indent: 1em;
+    line-height: 40px;
+}
+.login-box-header input{
+    width: 28px;
+    height: 28px;
+    margin: 6px;
+    line-height: 28px;
+    float: right;
+    background: #fff;
+    color: #f1b867;
+    border: 1px solid #f1b867;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.login-content{
+    box-sizing: border-box;
+    padding: 10px 15% 0;
+    text-align: center;
+}
+.login-content input{
+    width: 200px;
+    height: 25px;
+    margin: 5px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    text-indent: 1em;
+}
+.login-content input[type="button"]{
+    width: 100px;
+    background: #0275d8;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    outline: none;
+    text-indent: 0;
+    margin-top: 20px;
+}
